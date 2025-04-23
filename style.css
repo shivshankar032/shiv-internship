@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar .logo img {
+    height: 40px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}.main h1{
+    margin-left: 30%;
+    margin-top: 5vh;
+
+}
+
+.main img{
+    margin-top: 5vh;
+    height: 80vh;
+    width: 100%;
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .contact-form h2 {
+    text-align: center;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .contact-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .left-div, .right-div {
+    width: 48%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .left-div {
+    background-color: #dfefff;
+  }
+
+  .right-div {
+    background-color: #ffeedd;
+  }
+.left-div p{
+    font-size: 20px;
+}
